@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div class="container">
@@ -24,13 +25,14 @@
             <!--silder-->
             <input type="range" data-length-slider min="1" max="20" class="slider" step="1">
             <!--checkbox-->
-            <div>
+            <div class="aise">
                 <input type="checkbox"  id="uppercase">
                 <label for="uppercase">Includes uppercase letters</label>
             </div>
             <div>
                 <input type="checkbox"  id="lowercase">
                 <label for="lowercase">Includes Lowercase letters</label>
+           
             </div>
             <div>
                 <input type="checkbox"  id="numbers">
@@ -43,13 +45,13 @@
             <!--strength section-->
             <div class="strength-container">
                 <p>Strength</p>
-                <div data-indicator></div>
+                <div  class="indicator" data-indicator></div>
             </div>
             <!--generate password button-->
             <button class="generateButton">Generate Password</button>
         </div>
     </div>
-    </div>
+   
     <script src="script.js"></script>
 </body>
 </html>
