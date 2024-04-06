@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const inputSlider = document.querySelector("[data-length-slider]");
     const lengthDisplay = document.querySelector("[data-lengthNumber]");
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let checkCount = 0;
     
     handleSlider();
+    setIndicator("#ccc");
     
     function handleSlider() {
         inputSlider.value = passwordLength;
